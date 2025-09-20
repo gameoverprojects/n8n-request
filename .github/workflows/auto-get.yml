@@ -2,7 +2,7 @@ name: Auto GET Request Every 7 Hours
 
 on:
   schedule:
-    - cron: "0 */7 * * *"   # every 7 hours (UTC)
+    - cron: "*/7 * * * *"   # every 7 mins (UTC)
   workflow_dispatch:         # allow manual run
 
 jobs:
