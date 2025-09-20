@@ -1,4 +1,4 @@
-name: Auto GET Request Every 7 Hours
+name: Auto GET Request Every 7 Mins
 
 on:
   schedule:
