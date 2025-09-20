@@ -4,7 +4,7 @@ import logging
 
 url = "https://n8n-epka.onrender.com"   # replace with your URL
 timeout = 20                       # seconds before a single request times out
-retry_delay = 50                   # wait time between retries (seconds)
+retry_delay = 10                   # wait time between retries (seconds)
 
 logging.basicConfig(
     level=logging.INFO,
